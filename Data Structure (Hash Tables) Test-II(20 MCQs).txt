@@ -1,0 +1,40 @@
+1: What is the worst case search time of a hashing using separate chaining algorithm?
+ans- O(N)
+2: Which of the following is used in hash tables to determine the index of any input record?
+ans- hash function
+3: What is the advantage of a hash table as a data structure?
+ans- faster access of data
+4: What is the use of a hash function?
+ans- to calculate and return the index of corresponding data
+5: What is the time complexity of insert function in a hash table using a doubly linked list?
+ans- O(1)
+6: What is the time complexity of search function in a hash table using a doubly linked list?
+ans- O(1)
+7: What is the time complexity of delete function in the hash table using a doubly linked list?
+ans- O(1)
+8: Time complexity to check if an edge exists between two vertices would be ___________
+ans- O(E)
+9: What is the advantage of using a doubly linked list for chaining over singly linked list?
+ans- it makes the process of insertion and deletion faster
+10: Which of the following technique stores data in the hash table itself in case of a collision?
+ans- open addressing
+11: Which of the following technique stores data in a separate entity in case of a collision?
+ans-  Chaining using doubly linked list
+12: Which of the following variant of a hash table has the best cache performance?
+ans- hash table using open addressing
+13: What is the advantage of hashing with chaining?
+ans- less sensitive to hash function
+14: What is the disadvantage of hashing with chaining?
+ans- takes more space
+15: What is the time complexity of insert function in a hash table using a binary tree?
+ans- O(1)
+16: What is the time complexity of the search function in a hash table using a binary tree?
+ans- O(1)
+17: What is the time complexity of the delete function in the hash table using a binary tree?
+ans- O(1)
+18: What is the advantage of a hash table over BST?
+ans- hash table has a better average time complexity for performing insert, delete and search operations
+19: What is the disadvantage of BST over the hash table?
+ans- Time complexity of hash table in inserting, searching and deleting is less than that of BST
+20: Which of the following technique stores data separately in case of a collision?
+ans- Chaining using a binary tree

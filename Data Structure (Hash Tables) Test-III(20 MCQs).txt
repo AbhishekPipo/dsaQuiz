@@ -1,0 +1,41 @@
+1: Which of the following helps keys to be mapped into addresses?
+ans- hash function
+2: What is the advantage of the hash table over a linked list?
+ans- faster access of data
+3: Which of the following trait of a hash function is most desirable?
+ans- it should cause less collisions
+4: What is the time complexity of insert function in a hash table using list head?
+ans- O(1)
+5: What is the time complexity of search function in a hash table using list head?
+ans- O(1)
+6: What is the time complexity of delete function in the hash table using list head?
+ans- O(1)
+7: What is the advantage of using linked list over the doubly linked list for chaining?
+ans- it takes less memory
+8: What is the worst case time complexity of insert function in the hash table when the list head is used for chaining?
+ans- O(n)
+9: Which of the following technique is used for handling collisions in a hash table?
+ans- Open addressing
+10: Which of the following is an advantage of open addressing over separate chaining?
+ans-  it is simpler to implement
+11: Which of the following symbols represent leaf nodes?
+i) ? ii) ? iii) ? iv) T v) ?
+ans- iv) and v)
+12: Which of the following problems occur due to linear probing?
+ans- primary collision
+13: How many probes are required on average for insertion and successful search?
+ans- 2.5 and 1.5
+14: What is the load factor for an open addressing technique?
+ans- 0.5
+15: Which of the following is not a collision resolution strategy for open addressing?
+ans- rehashing
+16: Which of the following is the correct function definition for linear probing?
+ans- F(i)=i
+17: ___________ is not a theoretical problem but actually occurs in real implementations of probing.
+ans- Clustering
+18: What is the hash function used in linear probing?
+ans-  H(x)= (key+ F(i)) mod table size
+19: Which of the following schemes does quadratic probing come under?
+ans- open addressing
+20: What kind of deletion is implemented by hashing using open addressing?
+ans- lazy deletion

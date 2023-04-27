@@ -1,0 +1,20 @@
+1: Which of the following data structure is not linear data structure ?
+ans- None of the above
+2: Which of the following data structure is linear data structure ?
+ans- Arrays
+3: The operation of processing each element in the list is known as _____ .
+ans- Traversal
+4: Finding the location of the element with a given value is:
+ans- Search
+5: Each data item in a record may be a group item composed of sub-items; those items which are indecomposable are called
+ans- Scalars, Elementary items and atoms
+6: The difference between linear array and a record is
+ans- A record form a hierarchical structure but a lienear array does not, An array is suitable for homogeneous data but hte data items in a record may have different data type, An array is suitable for homogeneous data but hte data items in a record may have different data type
+7: Which of the following statement is false ?
+ans-  pointers store the next data element of a list
+8: When new data are to be inserted into a data structure, but there is no available space; this situation is usually called as _____ .
+ans- overflow
+9: The situation when in a linked list START=NULL is
+ans- underflow
+10: Which of the following is two way list ?
+ans - none of the above

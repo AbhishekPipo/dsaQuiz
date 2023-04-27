@@ -1,0 +1,70 @@
+1: The result of evaluating the postfix expression 5, 4, 6, +, *, 4, 9, 3, /, +, * is?
+ans:350
+
+2: Convert the following infix expressions into its equivalent postfix expressions.
+(A + B ?D)/(E - F)+G
+ans:(A B D ? + E F - / G +)
+
+3: Convert the following Infix expression to Postfix form using a stack.
+x + y * z + (p * q + r) * s, Follow usual precedence rule and assume that the expression is legal.
+ans:xyz*+pq*r+s*+
+
+4: Which of the following statement(s) about stack data structure is/are NOT correct?
+ans:Stack is the FIFO data structure
+
+5: Consider the following operation performed on a stack of size 5.
+Push(1);
+Pop();
+Push(2);
+Push(3);
+Pop();
+Push(4);
+Pop();
+Pop();
+Push(5);
+ans:1
+
+6: Which of the following is not an inherent application of stack?
+ans:Job scheduling
+
+7: The type of expression in which operator succeeds its operands is?
+ans:Postfix Expression
+
+8: Assume that the operators +,-, X are left associative and ^ is right associative. The order of precedence (from highest to lowest) is ^, X, +, -. The postfix expression for the infix expression a + b X c - d ^ e ^ f is?
+ans:abc X+ de^f^ -
+
+9: If the elements "A", "B", "C" and "D" are placed in a stack and are deleted one at a time, what is the order of removal?
+ans:DCBA
+
+10: Which of the following real world scenarios would you associate with a stack data structure?
+ans:piling up of chairs one above the other
+
+11: What does 'stack underflow' refer to?
+ans:removing items from an empty stack
+
+12: What is the time complexity of pop() operation when the stack is implemented using an array?
+ans:O(1)
+
+13: Which of the following array position will be occupied by a new element being pushed for a stack of size N elements(capacity of stack > N)?
+ans:S[N]
+
+14: What happens when you pop from an empty stack while implementing using the Stack ADT in Java?
+ans:EmptyStackException is thrown
+
+15: Array implementation of Stack is not dynamic, which of the following statements supports this argument?
+ans:space allocation for array is fixed and cannot be changed during run-time
+
+16: Which of the following array element will return the top-of-the-stack-element for a stack of size N elements(capacity of stack > N)?
+ans:S[N-1]
+
+17: What is the best case time complexity of deleting a node in a Singly Linked list?
+ans:O (1)
+
+18: Which of the following statements are not correct with respect to Singly Linked List(SLL) and Doubly Linked List(DLL)?
+ans:Number of node fields in SLL is more than DLL
+
+19: What does 'stack overflow' refer to?
+ans:adding items to a full stack
+
+20: Which of the following data structures can be used for parentheses matching?
+ans:stack

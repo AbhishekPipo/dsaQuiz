@@ -1,0 +1,61 @@
+1: What will be the position of 5, when a max heap is constructed on the input elements 5, 70, 45, 7, 12, 15, 13, 65, 30, 25?
+ans: 5 will be at last lvel
+
+2: In a leftist heap, all the operations should be performed on?
+ans:right path
+
+3: What would be the result if the left subtree of the root has a null path length of 1 and the right subtree has a null path length of 2?
+ans:violation at the root
+
+4: What happens if the null path length is not updated?
+ans:all null path lengths will be 0
+
+5: What is the time taken to delete a minimum element in a leftist heap?
+ans:O(log N)
+
+6: In what time can a leftist heap be built?
+ans: O(N)
+
+7: ___________ is a self-adjusting version of a leftist heap.
+ans:Skew heap
+
+8: The relationship of skew heaps to leftist heaps is analogous to that of?
+ans:Splay tree and AVL tree
+
+9: What is the fundamental operation performed in skew heaps?
+ans:merging
+
+10: What is the time per operation of merging, insertion and deletion operations in a skew heap?
+ans:O(log N)
+
+11: Why would a recursive implementation fail in skew heaps?
+ans:lack of stack space
+
+12: When is it appropriate to use direct addressing?
+ans: When the universe U of keys is reasonably small
+
+13: What is the time complexity to insert an element into the direct address table?
+ans:O(1)
+
+14: What is the advantage of using a dynamic set in direct addressing?
+ans:It saves space
+
+15: What is the time complexity to delete an element from the direct address table?
+ans:O(1)
+
+16: How is a bit vector better compared to a normal array for implementing the hash table?
+ans:It saves space
+
+17: Binary Decision Diagram is a type of __________
+ans:Directed Acyclic Graph
+
+18: In which of the following case does a Binary Decision Diagram is used for?
+ans:Representation of Boolean Functions
+
+19: In a Binary Decision Diagram, how many types of terminal exists?
+ans:2
+
+20: In a Binary Decision Diagrams 0 values by a _________ line and the 1 values are represented by a _________ line.
+ans:dotted, bold
+
+

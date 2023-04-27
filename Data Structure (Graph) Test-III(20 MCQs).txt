@@ -1,0 +1,49 @@
+1: Assuming value of every weight to be greater than 10, in which of the following cases the shortest path of a directed weighted graph from 2 vertices u and v will never change?
+ans-  multiply all values by 10
+2: What is the maximum possible number of edges in a directed graph with no self loops having 8 vertices?
+ans- 56
+3: What is the maximum number of edges present in a simple directed graph with 7 vertices if there exists no cycles in the graph?
+ans- 6
+4: With V(greater than 1) vertices, how many edges at most can a Directed Acyclic Graph possess?
+ans- (V*(V-1))/2
+5: The topological sorting of any DAG can be done in ________ time.
+ans- linear
+6: If there are more than 1 topological sorting of a DAG is possible, which of the following is true.
+ans- No Hamiltonian path is possible
+7: Which of the given statement is true?
+ans- All the cyclic directed graphs hace non topological sortings
+8: What is the value of the sum of the minimum in-degree and maximum out-degree of an Directed Acyclic Graph?
+ans- Will always be zero
+9: In which of the following does a Directed Acyclic Word Graph finds its application in?
+ans- string matching
+10: What is time complexity to check if a string(length S1) is a substring of another string(length S2) stored in a Directed Acyclic Word Graph, given S2 is greater than S1?
+ans- O(S1)
+11: In which of the following case does a Propositional Directed Acyclic Graph is used for?
+ans-  Representation of Boolean Functions
+12: Consider the following symbols and choose which of the symbols represent nodes having atleast one child?
+i) ? ii) ? iii) ? iv) T v) ?
+ans- i) and ii)
+13: Which of the following symbols represent nodes having exactly one child?
+i) ? ii) ? iii) ? iv) T v) ?
+ans- iii)
+14: Which of the following symbols represent leaf nodes?
+i) ? ii) ? iii) ? iv) T v) ?
+ans- iv) and v)
+15: Determine the number of vertices for the given Graph or Multigraph?
+G is a 4-regular Graph having 12 edges.
+ans- 6
+16: Which of the following statement is true.
+ans- There exists a MultiGraph having 10 vertices such that minimum degree of the graph is 0 and maximum degree is 9
+17: Possible number of labelled simple Directed, Pseudo and Multigarphs exist having 2 vertices?
+ans- 4, infinite, infinite
+18: Which of the following is a HyperGraph, where V is the set of vertices, E is the set of edges?
+ans- All of the above
+19: What would be the Incidence Matrix of the given HyperGraph?
+V = {x,y,z} E = {{x,y}{y}{x,z}{z,y}}
+ans-
+{{1,0,1,0},
+{1,1,0,1},
+{0,0,1,1}}
+20: What is the degree sequence of the given HyperGraph, in non-increasing order.
+V = {v1,v2,v3,v4,v5,v6} E = {{v1,v4,v5} {v2,v3,v4,v5} {v2} {v1} {v1,v6}}
+ans- 3,2,2,2,1,1

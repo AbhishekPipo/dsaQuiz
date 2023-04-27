@@ -1,0 +1,60 @@
+1: Process of inserting an element in stack is called ____________
+ans:Push
+
+2: Process of removing an element from stack is called __________
+ans: Pop
+
+3: In a stack, if a user tries to remove an element from an empty stack it is called _________
+ans:Underflow
+
+4: Pushing an element into stack already having five elements and stack size of 5, then stack becomes ___________
+ans:Overflow
+
+5: Entries in a stack are "ordered". What is the meaning of this statement?
+ans:There is a Sequential entry that is one by one
+
+6: Which of the following is not the application of stack?
+ans:Data Transfer between two asynchronous process
+
+7: Consider the usual algorithm for determining whether a sequence of parentheses is balanced. The maximum number of parentheses that appear on the stack AT ANY ONE TIME when the algorithm analyzes: (()(())(()))?
+ans:3
+
+8: Consider the usual algorithm for determining whether a sequence of parentheses is balanced. Suppose that you run the algorithm on a sequence that contains 2 left parentheses and 3 right parentheses (in some order). The maximum number of parentheses that appear on the stack AT ANY ONE TIME during the computation?
+ans:2
+
+9: What is the value of the postfix expression 6 3 2 4 + - *?
+ans:-18
+
+10: Here is an infix expression: 4 + 3*(6*3-12). Suppose that we are using the usual stack algorithm to convert the expression from infix to postfix notation. The maximum number of symbols that will appear on the stack AT ONE TIME during the conversion of this expression?
+ans:4
+
+11: The postfix form of the expression (A+ B)*(C*D- E)*F / G is?
+ans:AB + CD* E - *F *G /
+
+12: The data structure required to check whether an expression contains a balanced parenthesis is?
+ans:Stack
+
+13: What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
+ans:Stack
+
+14: The process of accessing data stored in a serial access memory is similar to manipulating data on a ________
+ans:Stack
+
+15: The postfix form of A*B+C/D is?
+ans:AB*CD/+
+
+16: Which data structure is needed to convert infix notation to postfix notation?
+ans:Stack
+
+17: The prefix form of A-B/ (C * D ^ E) is?
+ans:-A/B*C^DE
+
+18: What is the result of the following operation?
+Top (Push (S, X))
+ans:X
+
+19: The prefix form of an infix expression (p + q) - (r * t) is?
+ans: - +pq * rt
+
+20: Which data structure is used for implementing recursion?
+ans:Stack

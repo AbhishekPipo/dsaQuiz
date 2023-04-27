@@ -1,0 +1,40 @@
+1: What is a hash table?
+ans- A structure that maps keys to values
+2: If several elements are competing for the same bucket in the hash table, what is it called?
+ans- Collision
+3: What is a hash function?
+ans- A function that computes the location of the key in the array
+4: Which of the following is not a technique to avoid a collision?
+ans- Increasing hash table size
+5: What is the load factor?
+ans-  Average chain length
+6: What is simple uniform hashing?
+ans- Every element has equal probability of hashing into any of the slots
+7: In simple uniform hashing, what is the search complexity?
+ans- O(1)
+8: In simple chaining, what data structure is appropriate?
+ans- Doubly linked list
+9: The case in which a key other than the desired one is kept at the identified location is called?
+ans- collision
+10: What data organization method is used in hash tables?
+ans- Linked list
+11: The task of generating alternative indices for a node is called?
+ans- Collision handling
+12: Which of the following is not a collision resolution technique?
+ans- hashing
+13: In a hash table of size 10, where is element 7 placed?
+ans- 7
+14: What should be the load factor for separate chaining hashing?
+ans- 1
+15: Which of the following operations are done in a hash table?
+ans- Insert and search
+16: Which of the following is identical to that of a separate chaining hash node?
+ans- Linked list
+17: Which of the following is the hashing function for separate chaining?
+ans- H(x)=x mod table size
+18: What is the correct notation for a load factor?
+ans- option d) ?
+19: In hash tables, how many traversal of links does a successful search require?
+ans- 1+ (?/2)
+20: Which of the following is a disadvantage of using separate chaining using linked lists?
+ans- It requires many pointers

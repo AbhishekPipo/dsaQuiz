@@ -1,0 +1,40 @@
+1: Choose the option with function having same complexity for a fibonacci heap.
+ans- Insertion, Union
+2: d-heap is similar to that of a?
+ans- binary heap
+3: Which operation cannot be directly performed in a d-heap?
+ans- find
+4: Which operation is not efficiently performed in a d-heap?
+ans- merge
+5: What is the run time efficiency of an insertion algorithm in d-heap?
+ans- O(logd N)
+6: How many comparisons will occur while performing a delete-min operation?
+ans- d-1
+7: How many basic operations can be performed in a d-heap?
+ans- 2
+8: What is the run time efficiency of delete-min operation?
+ans-  O(d logd N)
+9: How many secondary operations are performed in a d-heap?
+ans- 4
+10: On which data structure is a d-ary heap based?
+ans- priority queue
+11: Which property should ternary heap hold for execution?
+ans- heap
+12: What is the process of building a ternary heap called?
+ans- heapify
+13: Which type of data structure is a ternary heap?
+ans- priority queue
+14: What is a ternary heap?
+ans- Heap with all nodes having three children
+15: Who invented d-ary heap?
+ans- Donald Johnson
+16: What is the time complexity for inserting a new item in a ternary heap of n elements?
+ans- O (log n/ log 3)
+17: What is the time complexity for decreasing priority of key in a minimum ternary heap of n elements?
+ans-  O (log n/ log 3)
+18: What is the time complexity for increasing priority of key in a maximum ternary heap of n elements?
+ans- O (log n/ log 3)
+19: What is the time complexity for deleting root key in a ternary heap of n elements?
+ans- O (3log n/ log 3)
+20: What is the time complexity for increasing priority of key in a minimum ternary heap of n elements?
+ans- O (3log n/ log 3)

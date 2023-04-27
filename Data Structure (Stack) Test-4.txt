@@ -1,0 +1,171 @@
+1: What would be the Prefix notation and Postfix notation for the given equation?
+A+B+C
+ans:++ABC and AB+C+
+
+2: What would be the Prefix notation for the given equation?
+a|b&c
+ans:|a&bc
+
+3: When an operand is read, which of the following is done?
+ans:It is placed on to the output
+
+4: What should be done when a left parenthesis '(' is encountered?
+ans: It is placed in the operator stack
+
+5: Which of the following is an infix expression?
+ans:(a+b)*(c+d)
+
+6: What is the time complexity of an infix to postfix conversion algorithm?
+ans:O(N)
+
+7: What is the postfix expression for the infix expression?
+a-b-c
+ans:ab - c -
+
+
+8: What is the postfix expression for the following infix expression?
+a/b^c-d
+ans:abc^/d-
+
+9: Which of the following statement is incorrect with respect to infix to postfix conversion algorithm?
+ans:parenthesis are included in the output
+
+10: In infix to postfix conversion algorithm, the operators are associated from?
+ans:left to right
+
+11: What is the corresponding postfix expression for the given infix expression?
+a*(b+c)/d
+ans:abc+*d/
+
+12: What is the corresponding postfix expression for the given infix expression?
+a+(b*c(d/e^f)*g)*h)
+ans:abcdef^/*g*h*+
+
+13: What is the correct postfix expression for the following expression?
+a+b*(c^d-e)^(f+g*h)-i
+ans: abcd^e-fgh*+^*+i-
+
+14: What would be the solution to the given prefix notation?
+- + 5 / 10 5 5
+ans:2
+
+15: What would be the solution to the given prefix notation?
+/ / / / 16 4 2 1
+ans:1
+
+16: What would be the solution to the given prefix notation?
++ 9 * 3 / 8 4
+ans:15
+
+17: What would be the solution to the given prefix notation?
+- + 1 2 * 3 / 6 2
+ans:-6
+
+18: What would be the solution to the given prefix notation?
+- * 1 5 / * / 6 3 6 2
+ans:-1
+
+19: What would be the solution to the given prefix notation?
+* / + 1 2 / 4 2 + 3 5
+ans:12
+
+20: Given a prefix and a postfix notation what are the difference between them?
+ans:The postfix equation is solved starting from the left whereas the prefix notation is solved from the right
+
+21: When converting the prefix notation into an infix notation, the first step to be followed is ________
+ans:Reverse the equation
+
+22: The time complexity of converting a prefix notation to infix notation is _________
+ans:O(n) where n is the length of the equation
+
+23: Given two processes (conversion of postfix equation to infix notation and conversion of prefix notation to infix notation), which of the following is easier to implement?
+ans:Conversion of postfix equation to infix equation is easier than converting a prefix notation to infix notation
+
+24: Which of the following data structure is used to convert postfix expression to infix expression?
+ans:Stack
+
+25: The postfix expression abc+de/*- is equivalent to which of the following infix expression?
+ans:a-(b+c)*(d/e)
+
+26: The equivalent infix expression and value for the postfix form 1 2 + 3 * 4 5 * - will be ___________
+ans:(1 + 2) * 3 - (4 * 5) and -11
+
+27: What is the value of the postfix expression 2 3 + 4 5 6 - - *
+ans:25
+
+28: The prefix expression of the postfix expression AB+CD-* is __________
+ans:*+AB-CD
+
+29: Consider the postfix expression 4 5 6 a b 7 8 a c, where a, b, c are operators. Operator a has higher precedence over operators b and c. Operators b and c are right associative. Then, equivalent infix expression is
+ans:4 b 5 a 6 c 7 a 8
+
+30: Which of the following is valid reverse polish expression?
+ans: a b op
+
+31: The result of the postfix expression 5 3 * 9 + 6 / 8 4 / + is _____________
+ans:6
+
+32: The optimal data structure used to solve Tower of Hanoi is _________
+ans:Stack
+
+33: Which among the following is not a palindrome?
+ans:Madam
+    Dad
+    Malayalam
+  ✓ Maadam
+
+34: Which data structure can be used to test a palindrome?
+ans:Stack
+
+35: What is the number of moves required to solve Tower of Hanoi problem for k disks?
+ans:2k - 1
+
+36: Which is the most appropriate data structure for reversing a word?
+ans:stack
+
+37: What is the time complexity of reversing a word using stack algorithm?
+ans:O (N)
+
+38: What will be the word obtained if the word "abbcabb" is reversed using a stack?
+ans:bbacbba
+
+39: How many stacks are required for reversing a word algorithm?
+ans:one
+
+40: What will be output if the following sequence of operations are executed?
+Push(a,s);
+Push(b,s);
+Pop(b);
+Push(c,s);
+ans:b
+
+41: What are the set of functions that are to be executed to get the following output?
+cat
+ans:push(c,s); pop(s); push(a,s); pop(s);push(t,s);pop(s);
+
+42: What is the time complexity of balancing parentheses algorithm?
+ans:O (N)
+
+43: Which application of stack is used to ensure that the pair of parentheses is properly nested?
+ans:Balancing symbols
+
+44: In balancing parentheses algorithm, the string is read from?
+ans:left to right
+
+45: Which is the most appropriate data structure for applying balancing of symbols algorithm?
+ans:stack
+
+46: Which of the following does the balancing symbols algorithm include?
+ans:balancing parentheses, brackets and braces
+
+47: Which of the following statement is incorrect with respect to balancing symbols algorithm?
+ans:([ )]
+
+48: What should be done when an opening parentheses is read in a balancing symbols algorithm?
+ans: push it on to the stack
+
+49: When the corresponding end bracket/braces/parentheses is not found, what happens?
+ans:An error is reported
+
+50: If the corresponding end bracket/braces/parentheses is encountered, which of the following is done?
+ans:pop the stack

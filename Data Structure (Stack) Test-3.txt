@@ -1,0 +1,72 @@
+1: Which of the following is an example for a postfix expression?
+ans:abc*+de-+
+
+2: What is the time complexity of evaluation of postfix expression algorithm?
+ans:O (N)
+
+3: Which of these operators have the highest order of precedence?
+ans:'~' and '^'
+
+4: Which of the following is not an application of stack?
+ans:line at ticket counter
+
+5: While evaluating a postfix expression, when an operator is encountered, what is the correct operation to be performed?
+ans:pop 2 operands, evaluate them and push the result on to the stack
+
+6: Which of the following statement is incorrect?
+ans:Postfix operators use value to their right
+
+7: What is the result of the given postfix expression? abc*+ where a=1, b=2, c=3.
+ans:7
+
+8: What is the result of the following postfix expression?
+ab*cd*+ where a=2,b=2,c=3,d=4.
+ans:16
+
+9: Consider the stack
+| 5 |
+| 4 |
+| 3 |
+| 2 |.
+At this point, '*' is encountered. What has to be done?
+ans:5*4=20 is pushed into the stack
+
+10: Evaluate the postfix expression ab + cd/- where a=5, b=4, c=9, d=3.
+ans:6
+
+11: Evaluate and write the result for the following postfix expression
+abc*+de*f+g*+ where a=1, b=2, c=3, d=4, e=5, f=6, g=2.
+ans:59
+
+12: What data structure is used when converting an infix notation to prefix notation?
+ans:Stack
+
+13: What would be the Prefix notation for the given equation?
+A+(B*C)
+ans:+A*BC
+
+14: What would be the Prefix notation for the given equation?
+(A*B)+(C*D)
+ans: +*AB*CD
+
+15: What would be the Prefix notation for the given equation?
+A+B*C^D
+ans:+A*B^CD
+
+16: Out of the following operators (^, *, +, &, $), the one having highest priority is _________
+ans:^
+
+17: Out of the following operators (|, *, +, &, $), the one having lowest priority is ________
+ans:|
+
+18: What would be the Prefix notation for the given equation?
+A^B^C^D
+ans: ^^^ABCD
+
+19: What would be the Prefix notation for the given equation?
+a+b-c/d&e|f
+ans: |&-+ab/cdef
+
+20: What would be the Prefix notation for the given equation?
+(a+(b/c)*(d^e)-f)
+ans: -+a*/bc^def

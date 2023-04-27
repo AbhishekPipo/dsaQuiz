@@ -1,0 +1,40 @@
+1: What is the space complexity for deleting a linked list?
+ans- O(1)
+2: Which of the following is false about a doubly linked list?
+ans- Implementing a doubly linked list is easier than singly linked list
+3: What is a memory efficient double linked list?
+ans- Each node has only one pointer to traverse the list back and forth
+4: How do you calculate the pointer difference in a memory efficient double linked list?
+ans- Pointer to previous node xor pointer to next node
+5: What is the worst case time complexity of inserting a node in a doubly linked list?
+ans- O(n)
+6: How many passes does the balancing symbols algorithm makes through the input?
+ans- one
+7: Which of the following statement is invalid with respect to balancing symbols?
+ans- ((A+B)+(C+D)
+8: Express -15 as a 6-bit signed binary number.
+ans- 101111
+9: Which is the predefined method available in Java to convert decimal to binary numbers?
+ans- toBinaryString(int)
+10: What is the time complexity for converting decimal to binary numbers?
+ans- O(logn)
+11: Which type of binary tree does rope require to perform basic operations?
+ans- Balanced
+12: What is the time complexity for inserting the string and forming a new string in the rope data structure?
+ans- O(log n)
+13: What is the time complexity for deleting the string to form a new string in the rope data structure?
+ans- o(log n)
+14: Which of the following is difficult to determine the right path length?
+ans- skew heaps
+15: How many types of the merge are available in skew heaps?
+ans- 2
+16: Descending priority queue can be implemented using ______
+ans- max heap
+17: The ascending heap property is ___________
+ans- A[Parent(i)] <= A[i]
+18: The procedure FindMin() to find the minimum element and the procedure DeleteMin() to delete the minimum element in min heap take _________
+ans- constant and logarithmic time respectively
+19: Which one of the following array elements represents a binary min heap?
+ans- 8 10 12 25 14 17
+20: In a binary min heap containing n elements, the largest element can be found in __________ time.
+ans O(n)

@@ -1,0 +1,20 @@
+1: In what kind of storage we can easily insert,delete,concatenate and rearrange substrings ?
+ans- Linked lists
+2: The memory address of the first element of an array is called as _____ .
+ans- base address
+3: The memory address of fifth element of an array can be calculated by the formula
+ans-LOC(Array[5]=Base(Array)+w(5-lower bound), where w is the number of words per memory cell for the array
+4: Which of the following data structures are indexed structures ?
+ans- linear arrays
+5: Two dimensional arrays are also called as _____ .
+ans- matrix arrays and tables array
+6: A variable P is called pointer if
+ans- P contains the address of an element in DATA
+7: Which of the following data structure can not store the non-homogeneous data elements ?
+ans- Arrays
+8: Which of the following data structure store the homogeneous data elements ?
+ans- Records
+9: Single and non-decomposable data is called _____ .
+ans- Atomic data
+10: Atomic Data is also called as _____ .
+ans- Scalar data

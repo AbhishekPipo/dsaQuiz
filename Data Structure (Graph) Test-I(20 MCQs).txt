@@ -1,0 +1,40 @@
+1: Which of the following statements for a simple graph is correct?
+ans-  Every path is a trail
+2: What is the number of edges present in a complete graph having n vertices?
+ans- (n*(n-1))/2
+3: A connected planar graph having 6 vertices, 7 edges contains _____________ regions.
+ans- 3
+4: If a simple graph G, contains n vertices and m edges, the number of edges in the Graph G'(Complement of G) is ___________
+ans-  (n*n-n-2*m)/2
+5: Which of the following properties does a simple graph not hold?
+ans- Must be connected
+6: What is the maximum number of edges in a bipartite graph having 10 vertices?
+ans- 25
+7: Which of the following is true?
+ans-  A graph may contain many edges and no vertices
+8: For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?
+ans- v = e+1
+9: For which of the following combinations of the degrees of vertices would the connected graph be eulerian?
+ans- 1,2,3
+10: A graph with all vertices having equal degree is known as a __________
+ans- regular graph
+11: Which of the following ways can be used to represent a graph?
+ans- Adjacency List, Adjacency Matrix as well as Incidence Matrix
+12: The number of elements in the adjacency matrix of a graph having 7 vertices is __________
+ans- 49
+13: The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is ____________
+ans- O(V2)
+14: For the adjacency matrix of a directed graph the row sum is the _________ degree and the column sum is the ________ degree.
+ans- out,in
+15: What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?
+ans- n*(n-1)
+16: On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?
+ans-  Is independent of both the number of edges and vertices
+17: In the given connected graph G, what is the value of rad(G) and diam(G)?
+ans- 2,3
+18: Which of these adjacency matrices represents a simple graph?
+ans- [ [0, 0, 1], [1, 0, 1], [1, 0, 0] ]
+19: Given an adjacency matrix A = [ [0, 1, 1], [1, 0, 1], [1, 1, 0] ], The total no. of ways in which every vertex can walk to itself using 2 edges is ________
+ans- 6
+20: If A[x+3][y+5] represents an adjacency matrix, which of these could be the value of x and y.
+ans- x=5, y=3

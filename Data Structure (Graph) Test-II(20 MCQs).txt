@@ -1,0 +1,49 @@
+1: The column sum in an incidence matrix for a simple graph is __________
+ans- equal to 2
+2: What are the dimensions of an incidence matrix?
+ans- Number of edges*number of vertices
+3: The column sum in an incidence matrix for a directed graph having no self loop is __________
+ans- 0
+4: Time complexity to check if an edge exists between two vertices would be ___________
+ans- O(E)
+5: If a connected Graph (G) contains n vertices what would be the rank of its incidence matrix?
+ans- n-1
+6: A Graph Structured Stack is a _____________
+ans-Directed Acyclic Graph
+7: If a Graph Structured Stack contains {1,2,3,4} {1,5,3,4} {1,6,7,4} and {8,9,7,4}, what would be the source and sink vertices of the DAC?
+ans- Source - 1, 8 Sink - 4
+8: Graph Structured Stack finds its application in _____________
+ans-  Tomita's Algorithm
+9: Space complexity for an adjacency list of an undirected graph having large values of V (vertices) and E (edges) is ___________
+ans- O(E+V)
+10: Time complexity to find if there is an edge between 2 particular vertices is _________
+ans- O(V)
+11: For the given conditions, which of the following is in the correct order of increasing space requirement?
+i) Undirected, no weight
+ii) Directed, no weight
+iii) Directed, weighted
+iv) Undirected, weighted
+ans- ii iii i iv
+12: In which case adjacency list is preferred in front of an adjacency matrix?
+ans- sparse graph
+13: Given a plane graph, G having 2 connected component, having 6 vertices, 7 edges and 4 regions. What will be the number of connected components?
+ans- 2
+14: Number of vertices with odd degrees in a graph having a eulerian walk is ________
+ans- either 0 or 2
+15: How many of the following statements are correct?
+i) All cyclic graphs are complete graphs.
+ii) All complete graphs are cyclic graphs.
+iii) All paths are bipartite.
+iv) All cyclic graphs are bipartite.
+v) There are cyclic graphs which are complete.
+ans- 2
+16: What is the number of vertices of degree 2 in a path graph having n vertices,here n>2.
+ans- n-2
+17: What would the time complexity to check if an undirected graph with V vertices and E edges is Bipartite or not given its adjacency matrix?
+ans- O(V*V)
+18: A graph having an edge from each vertex to every other vertex is called a ___________
+ans- Tightly Connected
+19: What is the number of unlabeled simple directed graph that can be made with 1 or 2 vertices?
+ans- 4
+20: Floyd Warshall Algorithm used to solve the shortest path problem has a time complexity of __________
+ans- O(V*V*V)

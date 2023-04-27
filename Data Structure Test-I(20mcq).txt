@@ -1,0 +1,40 @@
+1: Non Primitive data Structures are those which define set of _____ .
+ans- Derived Elements
+2: If elements of the data structure forms a sequence of list then it is called as _____ .
+ans- Linear data structure
+3: Which data structure allows deleting data elements from front and inserting at rear ?
+ans- Queues
+4: Identify the data structure which allows deletions at both ends of the list but insertion at only one end.
+ans- Input-restricted queue
+5: Which of the following data structure is non-linear type ?
+ans- None of the above 
+6: Which of the following data structure is linear type ?
+ans- All the above
+7: To represent hierarchical relationship between elements, which data structure is suitable ?
+ans- Tree
+8: A binary tree whose every node has either zero or two children is called as _____ .
+ans- Extended binary tree
+9: When representing any algebraic expression E which uses only binary operations in a 2-tree,
+ans- the variable in E will appear as external nodes and operations in internal nodes
+10: A binary tree can easily be converted into q 2-tree
+ans- by replacing each empty sub tree by a new external node
+11: When converting binary tree into extended binary tree, all the original nodes in binary tree are
+ans- internal nodes on extended tree
+12: The post order traversal of a binary tree is DEBFCA. Find out the pre order traversal.
+ans- ABDECF
+13: In a binary tree, certain null entries are replaced by special pointers which point to nodes higher in the tree for efficiency. These special pointers are called
+ans- thread
+14: _____ defines a set of primitive elements which do not involves any other element as its sub-part.
+ans- Primitive data structure
+15: In a graph if e=[u, v], Then u and v are called
+ans- neighbors,endpoint of e and adjacent nodes
+16: Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?
+ans- possible if X is not last node
+17: You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?
+ans- Delete the last element as a first element
+18: Which of the following is not a disadvantage to the usage of array?
+ans- Accessing elements at specified positions
+19: What is the time complexity of inserting at the end in dynamic arrays?
+ans- Either O(1) or O(n)
+20: What is the time complexity to count the number of elements in the linked list?
+ans- O(n)

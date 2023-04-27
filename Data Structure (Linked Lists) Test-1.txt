@@ -1,0 +1,63 @@
+1: What differentiates a circular linked list from a normal linked list?
+ans:You may or may not have the 'next' pointer point to null in a circular linked list
+
+2: What is the time complexity of searching for an element in a circular linked list?
+ans:O(n)
+
+3: Which of the following application makes use of a circular linked list?
+ans:Allocating CPU to resources
+
+4: Which of the following is false about a circular linked list?
+ans:Time complexity of inserting a new node at the head of the list is O(1)
+
+5: Consider a small circular linked list. How to detect the presence of cycles in this list effectively?
+ans:Have fast and slow pointers with the fast pointer advancing two nodes at a time and slow pointer advancing by one node at a time
+
+6: A linear collection of data elements where the linear node is given by means of pointer is called?
+ans:Linked list
+
+7: Consider an implementation of unsorted singly linked list. Suppose it has its representation with a head pointer only. Given the representation, which of the following operation can be implemented in O(1) time?
+i) Insertion at the front of the linked list
+ii) Insertion at the end of the linked list
+iii) Deletion of the front node of the linked list
+iv) Deletion of the last node of the linked list
+ans:I and III
+
+8: In linked list each node contains a minimum of two fields. One field is data field to store the data second field is?
+ans:Pointer to node
+
+9: What would be the asymptotic time complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list?
+ans:?(n)
+
+10: What would be the asymptotic time complexity to insert an element at the front of the linked list (head is known)?
+ans:O(1)
+
+11: What would be the asymptotic time complexity to find an element in the linked list?
+ans:O(n)
+
+12: What would be the asymptotic time complexity to insert an element at the second position in the linked list?
+ans:O(1)
+
+13: The concatenation of two lists can be performed in O(1) time. Which of the following variation of the linked list can be used?
+ans:Circular doubly linked list
+
+14: What kind of linked list is best to answer questions like "What is the item at position n?"
+ans:Array implementation of linked list
+
+15: Linked lists are not suitable for the implementation of ___________
+ans:Binary search
+
+16: Linked list is considered as an example of ___________ type of memory allocation.
+ans:Dynamic
+
+17: In Linked List implementation, a node carries information regarding ___________
+ans:Data and Link
+
+18: Linked list data structure offers considerable saving in _____________
+ans:Space Utilization and Computational Time
+
+19: Which of the following points is/are not true about Linked List data structure when it is compared with an array?
+ans:Access of elements in linked list takes less time than compared to arrays
+
+20: Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+ans:Merge Sort

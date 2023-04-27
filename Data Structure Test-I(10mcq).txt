@@ -1,0 +1,20 @@
+1: The term Data Structure refers to _____ and interrelationship between them.
+ans-Organization of data elements
+2: Data is nothing but _____ .
+ans-piece of information
+3: In data structure, data may be of _____ types.
+ans-2
+4: Variable which can be accessed by all modules of the program is called as _____ .
+ans- Global variable
+5: Arrays are best data structures
+ans-for relatively permanent collections of data
+6: Linked lists are best suited
+ans- for the size of the structure and the data in the structure are constantly changing.
+7: Each array declaration need not give, implicitly or explicitly, the information about
+ans- the first data from the set to be stored.
+8: The elements of an array are stored successively in memory cells because
+ans-by this way computer can keep track only the address of the first element and the addresses of other elements can be calculated.
+9: Data that can be broken down into small pieces and each sub-field having the some meaning is called as _____ .
+ans-Composite Data.
+10: Mathematical Model that can have set of operations that can be performed on that model is called as _____ .
+ans-Abstract Data Type.

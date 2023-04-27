@@ -1,0 +1,419 @@
+1: Consider the following definition in c programming language.
+
+struct node
+{
+   int data;
+   struct node * next;
+}
+typedef struct node NODE;
+NODE *ptr;
+
+Which of the following c code is used to create new node?
+ans-  ptr = (NODE*)malloc(sizeof(NODE));
+2: What does the following function do for a given Linked List with first node as head?
+
+void fun1(struct node* head)
+{
+   if(head == NULL)
+   return;
+   fun1(head->next);
+   printf("%d  ", head->data);
+}
+ans- Prints all nodes of linked list in reverse order
+3: The following function reverse() is supposed to reverse a singly linked list. There is one line missing at the end of the function.
+
+/* Link list node */
+struct node
+{
+   int data;
+   struct node* next;
+};
+ 
+/* head_ref is a double pointer which points to head (or start)
+   pointer of linked list */
+static void reverse(struct node** head_ref)
+{
+   struct node* prev   = NULL;
+   struct node* current = *head_ref;
+   struct node* next;
+   while (current != NULL)
+   {
+      next  = current->next;  
+      current->next = prev;   
+      prev = current;
+      current = next;
+   }
+   /*ADD A STATEMENT HERE*/
+}
+
+What should be added in place of "/*ADD A STATEMENT HERE*/", so that the function correctly reverses a linked list.
+ans- *head_ref = prev;
+4: What is the output of following function for start pointing to first node of following linked list?
+
+1->2->3->4->5->6
+void fun(struct node* start)
+{
+   if(start == NULL)
+   return;
+   printf("%d  ", start->data); 
+   if(start->next != NULL )
+   fun(start->next->next);
+   printf("%d  ", start->data);
+}
+ans- 1 3 5 5 3 1
+5: The following C function takes a simply-linked list as an input argument. It modifies the list by moving the last element to the front of the list and returns the modified list. Some part of the code is left blank. Choose the correct alternative to replace the blank line.
+typedef struct node
+
+typedef struct node 
+{
+   int value;
+   struct node *next;
+}Node;
+ 
+Node *move_to_front(Node *head) 
+{
+   Node *p, *q;
+   if ((head == NULL: || (head->next == NULL)) 
+   return head;
+   q = NULL; p = head;
+   while (p-> next !=NULL) 
+   {
+      q = p;
+      p = p->next;
+   }
+   _____________________
+   return head;
+}
+ans-    q->next = NULL;
+   p->next = head;
+   head = p;
+6: The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers 1, 2, 3, 4, 5, 6, 7 in the given order. What will be the contents of the list after the function completes execution?
+
+struct node 
+{
+   int value;
+   struct node *next;
+};
+void rearrange(struct node *list)
+{
+   struct node *p, * q;
+   int temp;
+   if ((!list) || !list->next) 
+      return;
+   p = list;
+   q = list->next;
+   while(q) 
+   {
+      temp = p->value;
+      p->value = q->value;
+      q->value = temp;
+      p = q->next;
+      q = p?p->next:0;
+   }
+}
+ans- 2, 1, 4, 3, 6, 5, 7
+7: Given the Node class implementation, select one of the following that correctly inserts a node at the tail of the list.
+
+public class Node
+{
+   protected int data;
+   protected Node prev;
+   protected Node next;
+   public Node(int data)
+   {
+      this.data = data;
+      prev = null;
+      next = null;
+   }
+   public Node(int data, Node prev, Node next)
+   {
+      this.data = data;
+      this.prev = prev;
+      this.next = next;
+   }
+   public int getData()
+   {
+      return data;
+   }
+   public void setData(int data)
+   {
+      this.data = data;
+   }
+   public Node getPrev()
+   {
+      return prev;
+   }
+   public void setPrev(Node prev)
+   {
+      this.prev = prev;
+   }
+   public Node getNext
+   {
+      return next;
+   }
+   public void setNext(Node next)
+   {
+      this.next = next;
+   }
+}
+public class DLL
+{
+   protected Node head;
+   protected Node tail;
+   int length;
+   public DLL()
+   {
+      head = new Node(Integer.MIN_VALUE,null,null);
+      tail = new Node(Integer.MIN_VALUE,null,null);
+      head.setNext(tail);
+      length = 0;
+   }
+}
+ans- public void insertRear(int data)
+{
+   Node node = new Node(data,tail.getPrev(),tail);
+   node.getPrev().setNext(node);
+   tail.setPrev(node);
+   length++;
+}
+8: Which of the following piece of code removes the node from a given position?
+ans- public void remove(int pos)
+{
+   if(pos<0 || pos>=size)
+   {
+      System.out.println("Invalid position");
+      return;
+   }
+   else
+   {
+      if(head == null)
+         return;
+      if(pos == 0)
+      {
+         head = head.getNext();
+         if(head == null)
+         tail = null;
+      }
+           else
+           {
+         Node temp = head;
+         for(int i=1; i
+9: How do you insert a node at the beginning of the list?
+ans- public class insertFront(int data)
+{
+   Node node = new Node(data, head, head.getNext());
+   node.getNext().setPrev(node);
+   head.setNext(node);
+   size++;
+}
+10: Consider the following doubly linked list: head-1-2-3-4-5-tail. What will be the list after performing the given sequence of operations?
+
+Node temp = new Node(6,head,head.getNext());
+Node temp1 = new Node(0,tail.getPrev(),tail);
+head.setNext(temp);
+temp.getNext().setPrev(temp);
+tail.setPrev(temp1);
+temp1.getPrev().setNext(temp1);
+ans- head-6-1-2-3-4-5-0-tail
+11: What is the functionality of the following piece of code?
+
+public int function()
+{
+   Node temp = tail.getPrev();
+   tail.setPrev(temp.getPrev());
+   temp.getPrev().setNext(tail);
+   size--;
+   return temp.getItem();
+}
+ans-  Return the element at the tail of the list and remove it from the list
+12: Consider the following doubly linked list: head-1-2-3-4-5-tail. What will be the list after performing the given sequence of operations?
+
+Node temp = new Node(6,head,head.getNext());
+head.setNext(temp);
+temp.getNext().setPrev(temp);
+Node temp1 = tail.getPrev();
+tail.setPrev(temp1.getPrev());
+temp1.getPrev().setNext(tail);
+ans- head-6-1-2-3-4-tail
+13: How do you count the number of elements in the circular linked list?
+ans- public int length(Node head)
+{
+   int length = 0;
+   if( head == null)
+      return 0;
+   Node temp = head.getNext();
+   while(temp != head)
+   {
+      temp = temp.getNext();
+      length++;
+   }
+   return length;
+}
+14: What is the functionality of the following piece of code? Select the most appropriate.
+
+public void function(int data)
+{
+   int flag = 0;
+   if(head != null)
+   {
+      Node temp = head.getNext();
+      while((temp != head) && (!(temp.getItem() == data)))
+      {
+         temp = temp.getNext();
+         flag = 1;
+         break;
+      }
+   }
+   if(flag)
+      System.out.println("success");
+   else
+      System.out.println("fail");
+}
+ans- Print fail if a particular element is not found
+15: Choose the code snippet which inserts a node to the head of the list?
+ans- public void insertHead(int data)
+{
+   Node temp = new Node(data);
+   Node cur = head;
+   while(cur.getNext() != head)
+      cur = cur.getNext()
+   if(head == null)
+   {
+      head = temp;
+      head.setNext(head);
+   }
+   else
+   {
+      temp.setNext(head);
+      head = temp;
+      cur.setNext(temp);
+   }
+   size++;
+}
+16: What is the functionality of the following code? Choose the most appropriate answer.
+
+public int function()
+{
+   if(head == null)
+      return Integer.MIN_VALUE;
+   int var;
+   Node temp = head;
+   while(temp.getNext() != head)
+      temp = temp.getNext();
+   if(temp == head)
+   {
+      var = head.getItem();
+      head = null;
+      return var;
+   }
+   temp.setNext(head.getNext());
+   var = head.getItem();
+   head = head.getNext();
+   return var;
+}
+ans- Returns the data and deletes the node from the beginning of the list
+17: What is the functionality of the following code? Choose the most appropriate answer.
+
+public int function()
+{
+   if(head == null)
+      return Integer.MIN_VALUE;
+   int var;
+   Node temp = head;
+   Node cur;
+   while(temp.getNext() != head)
+   {
+      cur = temp;
+      temp = temp.getNext();
+   }
+   if(temp == head)
+   {
+      var = head.getItem();
+      head = null;
+      return var;
+   }
+   var = temp.getItem();
+   cur.setNext(head);
+   return var;
+}
+ans- Returns the data and deletes the node at the end of the list
+18: What does the following function check for? (all necessary headers to be included and function is called from main)
+
+#define MAX 10
+ 
+typedef struct stack
+{
+    int top;
+    int item[MAX];
+}stack;
+ 
+int function(stack *s)
+{
+    if(s->top == -1)
+        return 1;
+    else return 0;
+}
+ans-  empty stack
+19: What is the output of the following program?
+
+public class Stack
+{
+   protected static final int CAPACITY = 100;
+   protected int size,top = -1;
+   protected Object stk[];
+ 
+   public Stack()
+   {
+      stk = new Object[CAPACITY];
+   }
+ 
+   public void push(Object item)
+   {
+      if(size_of_stack==size)
+      {
+         System.out.println("Stack overflow");
+         return;
+      }
+      else
+      {
+         top++;
+         stk[top]=item;
+      }
+   }
+   public Object pop()
+   {
+      if(top<0)
+      {
+         return -999;
+      }
+      else
+      {
+         Object ele=stk[top];
+         top--;
+         size_of_stack--;
+         return ele;
+      }
+   }
+}
+ 
+public class StackDemo
+{
+   public static void main(String args[])
+   {
+      Stack myStack = new Stack();
+      myStack.push(10);
+      Object element1 = myStack.pop();
+      Object element2 = myStack.pop();
+      System.out.println(element2);
+   }
+}
+ans- -999
+20: What does the following function do?
+
+public Object some_func() throws emptyStackException
+{
+   if(isEmpty())
+      throw new emptyStackException("underflow");
+   return first.getEle();
+}
+ans- retrieve the top-of-the-stack element

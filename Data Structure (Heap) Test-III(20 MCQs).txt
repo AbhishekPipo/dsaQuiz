@@ -1,0 +1,40 @@
+1: What is the time complexity for decreasing priority of key in a maximum ternary heap of n elements?
+ans-  O (3log n/ log 3)
+2: What is the time complexity for creating a ternary heap using swapping?
+ans- O (n)
+3: Which of the following is the application of minimum ternary heap?
+ans- Prim's Algorithm
+4: What is the reason for the efficiency of a pairing heap?
+ans- simplicity
+5: How is a pairing heap represented?
+ans- heap ordered tree
+6: Which node contains a pointer to its parent?
+ans- left most child
+7: What is the basic operation performed in a pairing heap?
+ans- merge
+8: If there are c children of the root, how many calls to the merge procedure is required to reassemble the heap?
+ans- c+1
+9: Which of the following methods is the best choice for complex applications?
+ans- pairing heap
+10: Pairing heaps time complexity was inspired by that of?
+ans- splay tree
+11: The amortized time efficiency for performing deletion of a minimum element is?
+ans- O(log N)
+12: Out of the following given options, which is the fastest algorithm?
+ans- fibonacci heap
+13: What is the run time efficiency of an insertion algorithm?
+ans- O(N)
+14: How many properties does a leftist heap support?
+ans- 3
+15: In a leftist heap, the null path length of a null node is defined as?
+ans- -1
+16: Which of the following operations does not destroy the leftist heap property?
+ans- delete
+17: What is the fundamental operation on leftist heap?
+ans- merging
+18: What is the efficiency of merge used in leftist heaps?
+ans- O(log N)
+19: What is the node path length of a node with 0 or 1 child?
+ans- 0
+20: Why is this heap named leftist heap?
+ans- the tree is biased to get deep down the left
